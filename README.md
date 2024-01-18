@@ -4,11 +4,11 @@ This a multi level grey image segmentation algoritm and its demo. This project i
 This project is compeletly original work not a copy or an different implementation of a another known system( as far as I know, I may be wrong).
 
 Steps : 
-1- Take a 512x512 image as input.
-2- Convert the image to an numpy array.
-3- Create a histogram from that array.
-4- Start from least present pixel value to find slopes at right and left.
-5- Create new images using found threshold values.
+1. Take a 512x512 image as input.
+2. Convert the image to an numpy array.
+3. Create a histogram from that array.
+4. Start from least present pixel value and find slopes at right and left.
+5. Create new images using found threshold values.
 
 
 Main idea is we want to find the division between pixel values in an image. To find the limits we focus on least present pixel values.
