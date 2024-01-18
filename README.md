@@ -15,3 +15,4 @@ Main idea is we want to find the division between pixel values in an image. To f
 Also we want these values to be in a valley meaning that it needs to have slopes on both right and left side.
 
 Like this : 
+![Ekran Resmi 2024-01-19 01 31 52](https://github.com/hirsizyavuz/multi-level-image-segmentation/assets/42612286/e6398813-804f-47bc-987e-596edd2b6379)
