@@ -1,0 +1,53 @@
+{
+    "buyer" : {     
+        "buyer_1" : {
+            "email" : "buyer_1@yopmail.com",
+            "password" : "123qweASD.",
+            "requester" : { 
+                "requester_1" : {
+                    "requester_email" : "buyer_1_requester_1@yopmail.com",
+                    "requester_password" : "123qweASD."
+                }
+            },
+            "approver" : {
+                "request" : {
+                    "approver_requester_1" : {
+                        "approver_request_email" : "buyer_1_approver_request_1@yopmail.com",
+                        "approver_request_password" : "123qweASD."
+                    }
+                },
+                "order" : {
+                    "approver_order_1" : {
+                        "approver_order_email" : "buyer_1_approver_order_1@yopmail.com",
+                        "approver_order_password" : "123qweASD."
+                    }
+                }
+            }
+        },
+        "buyer_2" : {
+            "email" : "buyer_2@yopmail.com",
+            "password" : "123qweASD."
+        },
+        "buyer_3" : {
+            "email" : "buyer_3@yopmail.com",
+            "password" : "123qweASD."
+        }
+    },
+
+    "seller" : {
+        "seller_1" : {
+            "email" : "seller_1@yopmail.com",
+            "password" : "123qweASD.",
+            "users" : {
+                "user_1" : {
+                    "user_email" : "seller_1_user_1@yopmail.com",
+                    "user_password" : "123qweASD."
+                }
+            }
+        },
+        "seller_2" : {
+            "email" : "seller_2@yopmail.com",
+            "password" : "123qweASD."
+        }
+    }
+}
